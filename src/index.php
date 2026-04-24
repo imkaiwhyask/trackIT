@@ -15,9 +15,11 @@
   <script src="https://kit.fontawesome.com/bfe0d9d3a0.js" crossorigin="anonymous"></script>
 
   <!-- Optional custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Custom styles for this template-->
+     <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/style.css">
+
 
 </head>
 
@@ -71,7 +73,9 @@
     </div>
 
   </div>
+
 </div>
+
 
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

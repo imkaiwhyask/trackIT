@@ -26,7 +26,7 @@
                 </div>
 
                 <?php
-                    $query=mysqli_query($con,"SELECT * FROM tbl_assetloan where id='".$_GET['id']."' and country='".$country."'");
+                    $query=mysqli_query($con,"SELECT * FROM tbl_assetLoan where id='".$_GET['id']."' and country='".$country."'");
                         $row=mysqli_fetch_assoc($query);
                 ?>
 
@@ -110,7 +110,7 @@
                                 <option></option>
                                 <option>APPROVED</option>
                                 <option>DECLINED</option>
-                            <select>
+                            </select>
                         </div>
                     </div>
                     <div class='row mt-2'>
@@ -149,7 +149,7 @@
                 </div>
 
                 <?php
-                    $query=mysqli_query($con,"SELECT * FROM tbl_assetloan where id='".$_GET['id']."' and country='".$country."'");
+                    $query=mysqli_query($con,"SELECT * FROM tbl_assetLoan where id='".$_GET['id']."' and country='".$country."'");
                         $row=mysqli_fetch_assoc($query);
                 ?>
 
@@ -244,7 +244,7 @@
                             <select name='status' required>
                                 <option></option>
                                 <option>Closed</option>
-                            <select>
+                            </select>
                         </div>
                     </div>
                     <div class='row mt-2'>

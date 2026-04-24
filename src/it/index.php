@@ -245,7 +245,7 @@
                           </div>
                           <div class='row p-2'>
                             <div class='col text-center'>
-                              <input type='text' name='igg' required>
+                              <input type='text' placeholder="Employee Number" name='igg' required>
                             </div>
                           </div>
                           <div class='row p-2'>
@@ -583,15 +583,18 @@
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>  Copyright &copy; 
-  <a href="https://github.com/imkaiwhyask" target="_blank">Kai Angelo</a> 
-  </span>
-          </div>
-        </div>
-      </footer>
+     <footer class="d-flex align-items-center justify-content-between flex-wrap px-4 py-3 border-top">
+  <div>
+    <img src="/assets/images/trackit-logo.png" alt="trackIT" style="height: 32px;">
+    <div class="text-muted mt-1" style="font-size:12px;">&copy; <span id="year"></span> trackIT. All rights reserved.</div>
+  </div>
+  <div class="d-flex gap-2">
+    <a href="https://github.com/imkaiwhyask" class="btn btn-sm btn-outline-secondary" style="width:32px;height:32px;padding:0;display:flex;align-items:center;justify-content:center;">
+      <i class="fab fa-github" style="font-size:14px;"></i>
+    </a>
+
+  </div>
+</footer>
       <!-- End of Footer -->
 
     </div>
@@ -640,7 +643,9 @@
 
   <!-- Page level custom scripts -->
   <script src="../js/demo/datatables-demo.js"></script>
-
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
         <!--select all checkbox-->
         <script type="text/javascript">
         $('.checked_all').on('change', function() {     

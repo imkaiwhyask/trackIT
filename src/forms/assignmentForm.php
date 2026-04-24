@@ -1,253 +1,169 @@
-<html>
-<html>
 <?php 
+session_start();
+include('../config/config.php');
 
-    session_start();
-    include('../config/config.php');
+// Securely fetch asset data
+$serial = isset($_GET['serial']) ? $_GET['serial'] : '';
+$stmt = $con->prepare("SELECT * FROM tbl_assetmain WHERE serial = ?");
+$stmt->bind_param("s", $serial);
+$stmt->execute();
+$result = $stmt->get_result();
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <title>IT Asset - Assignment Form</title>
-    <!-- Meta Declaration 
-    <meta http-equiv="refresh" content="1"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap Import -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <!-- Font Import -->
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed&display=swap" rel="stylesheet">
-
-    <!-- -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-    <head>
- 
-        <style>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:600&display=swap" rel="stylesheet">
+    <style>
+        @media print { 
+            @page { margin: 0; } 
+            body { margin: 1.2cm; } 
+        }
+        body { font-size: 11px; font-family: 'Helvetica', 'Arial', sans-serif; color: #333; }
         
-        @media print {
-            @media print { @page { margin: 0; } 
-   body { margin: 1cm; } }
-            
+        /* Header Styling */
+        .header-table { width: 100%; border-bottom: 2px solid #333; margin-bottom: 20px; }
+        .logo-img { width: 180px; height: auto; }
+        .form-title { 
+            font-family: 'Encode Sans Expanded'; 
+            font-size: 26px; 
+            font-weight: 600; 
+            padding-left: 15px; 
+        }
+
+        /* Section Styling */
+        .section-header { 
+            background-color: #f9f9f9; 
+            font-weight: bold; 
+            padding: 6px 10px; 
+            border: 1px solid #ccc;
+            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* The Entry Lines (Fix for Name and Employee Number) */
+        .entry-label { padding: 12px 5px 5px 5px; font-weight: bold; width: 10%; }
+        .entry-line { 
+            padding: 5px; 
+            border-bottom: 1px solid #000; 
+            width: 40%; 
+            position: relative;
+        }
+
+        .data-table { width: 100%; margin-bottom: 10px; }
+        .data-table td { padding: 8px 5px; }
+
+        /* Accountability Box */
+        .accountability-box { 
+            border: 1px solid #ccc; 
+            padding: 15px; 
+            margin-top: 15px; 
+            text-align: justify;
         }
         
-        </style>
- 
-        <script type="text/javascript">
-            
+        /* Signature Boxes */
+        .sig-box { border: 1px solid #000; height: 80px; }
+        .sig-label { font-weight: bold; padding-top: 10px; }
+    </style>
+    <script>
+        window.onload = function() {
             window.print();
-            //window.onfocus=function(){ window.close();}
             setTimeout(window.close, 3000);
+        };
+    </script>
+</head>
+<body>
 
-        </script>
-
-    </head>
-
-    <body onload="window.print();" style='font-size:10px'>
-
-        <table style="width:100%; text-align:center;">
-                <tr>
-                    <td rowspan=2 style='padding:5px'><img src="../assets/images/total2.png" style="margin-right:-70px;" width=200px>
-                    <td rowspan=2 style="padding:5px;font-family:'Encode Sans Expanded'; font-weight:600; font-size:3vw;"> 
-                    | &nbsp;&nbsp;&nbsp;&nbsp;IT Asset Assignment Form
-                    </td>
-                </tr>
-        </table>
-
-    <?php
-
-    $query=mysqli_query($con,"SELECT tbl_assetmain.* FROM tbl_assetmain where serial='".$_GET['serial']."'");
-    while($row = mysqli_fetch_assoc($query)) 
-    {
-
-    echo "
-        <table width=100% style=\"margin-top:20px; margin-bottom:20px;\">
-            <tr>
-                <td width=100% colspan=4  style=\"padding-bottom:10px;\">
-                    <b>Asset Owner Details</b>
-                </td>
-            </tr>   
-            <tr>
-                <td width=15% style=\"padding-bottom:3px;\">
-                Name:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-               
-                </td>
-                <td width=15% style=\"padding-bottom:3px;\"> 
-                IGG:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                
-                </td>
-            </tr>
-        </table>
-
-        <table width=100% style=\"margin-top:20px; margin-bottom:20px;\">
-            <tr>
-                <td width=100% colspan=4 style=\"padding-bottom:10px;\">
-                    <b>";
-                    
-                if($row["type"] == "Laptop"){
-                    echo "Laptop Assignment Details";
-
-                }else if($row["type"] == "Desktop"){
-                    echo "Desktop Assignment Details";
-
-                }else if($row["type"] == "Monitor"){
-                    echo "Monitor Assignment Details";
-
-                }else{
-                    echo "Asset Assignment Details";
-                }
-                    
-    echo"</b>
-                </td>
-            </tr>   
-            <tr>
-                <td width=15% style=\"padding-bottom:3px;\">
-                Type:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["type"];
-                echo "
-                </td>
-                <td width=15% style=\"padding-bottom:3px;\"> 
-                Serial No.:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["serial"];
-                echo "
-                </td>
-            </tr>
-            <tr>
-                <td width=15% style=\"padding-bottom:3px;\">
-                Brand:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["brand"];
-                echo "
-                </td>
-                <td width=15% style=\"padding-bottom:3px;\"> 
-                Asset Tag:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["assetTag"];
-                echo "
-                </td>
-            </tr>
-            <tr>
-                <td width=15% style=\"padding-bottom:3px;\">
-                Model:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["model"];
-                echo "
-                </td>
-                <td width=15% style=\"padding-bottom:3px;\"> 
-                Mac:
-                </td>
-                <td width=35% style=\"padding-bottom:3px;\">
-                ";
-                echo $row["macAddress"];
-                echo "
-                </td>
-            </tr>
-        </table>
-        
-        <table width=100% style=\"margin-top:20px; margin-bottom:20px;\">
-            <tr>
-                <td width=100% colspan=6 style=\"padding-bottom:10px;\">
-                    <b>";
-                    
-                    if($_GET["type"] == "Laptop"){
-                        echo "Laptop Peripherals Assignment Details";
-    
-                    }else if($_GET["type"] == "Desktop"){
-                        echo "Desktop Peripherals Assignment Details";
-    
-                    }else if($_GET["type"] == "Monitor"){
-                        echo "Monitor Peripherals Assignment Details";
-    
-                    }else{
-                        echo "Asset Peripherals Assignment Details";
-                    }
-                        
-        echo"</b>
-                </td>
-            </tr>   
-            <tr>
-                <td style=\"padding-bottom:3px;\"><input type='checkbox'> Keyboard</td>
-                <td style=\"padding-bottom:3px;\"> <input type='checkbox'> Mouse </td>
-                <td style=\"padding-bottom:3px;\"> <input type='checkbox'> Charger</td>
-                <td style=\"padding-bottom:3px;\"><input type='checkbox'> Laptop Bag</td>
-                <td style=\"padding-bottom:3px;\"> <input type='checkbox'> Docking</td>
-            </tr>
-            
-        </table>
-        
-        <table width=100% style=\"margin-top:20px;\">
+    <table class="header-table">
         <tr>
-            <td width=100% colspan=6 style=\"padding-bottom:10px;\">
-                <b>IT Asset Accountability Details</b>
-                <br>
-                <p style='padding:10px;text-align:justify;font-size:14px'>
-                As the designated custodian of the IT assets listed in this document, I am fully responsible and accountable to the Company in ensuring that :
-                    <ul style='font-size:14px'>
-                        <li> The asset/s will be used solely for the benefit of the Company. </li>
-                        <li> All assets have been received to be in working order and without any notable physical and functional defects that can affect its use. </li>
-                        <li> The loss or damage to the assets shall be immediately reported to the Information Systems Department within 24 hours and supported by an Incident Report. </li>
-                        <li> In case of loss and/or damage of the property, corresponding company policies and procedures will be followed. </li>
-                        <li> In case of loss and/or damage of the property, depending on the investigation, the IT Team will provide the cost and the user will shoulder the charges through HR. </li>
-                        <li> Repair or replacement of lost or damaged assets do not consider the factor of age and condition of the property. The cost is based on the value of the repair or replacement unit. </li>
-                        <li> I shall remain responsible to the Company as its designated property custodian until the termination/ transfer of my custodial responsibility. </li>
-                    </u>    
-                </p>
+            <td width="200"><img src="../assets/images/total2.png" class="logo-img"></td>
+            <td class="form-title">IT Asset Assignment Form</td>
+        </tr>
+    </table>
+
+    <?php if($row = $result->fetch_assoc()): ?>
+        
+        <div class="section-header">Asset Owner Details</div>
+        <table class="data-table">
+            <tr>
+                <td class="entry-label">Name:</td>
+                <td class="entry-line"></td> <td class="entry-label" style="padding-left:30px;">Employee Number:</td>
+                <td class="entry-line"></td> </tr>
+        </table>
+
+        <div class="section-header"><?php echo htmlspecialchars($row['type']); ?> Assignment Details</div>
+        <table class="data-table">
+            <tr>
+                <td width="15%"><b>Type:</b></td>
+                <td width="35%"><?php echo htmlspecialchars($row['type']); ?></td>
+                <td width="15%"><b>Serial No.:</b></td>
+                <td width="35%"><?php echo htmlspecialchars($row['serial']); ?></td>
+            </tr>
+            <tr>
+                <td><b>Brand:</b></td>
+                <td><?php echo htmlspecialchars($row['brand']); ?></td>
+                <td><b>Asset Tag:</b></td>
+                <td><?php echo htmlspecialchars($row['assetTag']); ?></td>
+            </tr>
+            <tr>
+                <td><b>Model:</b></td>
+                <td><?php echo htmlspecialchars($row['model']); ?></td>
+                <td><b>MAC Address:</b></td>
+                <td><?php echo htmlspecialchars($row['macAddress']); ?></td>
+            </tr>
+        </table>
+
+        <div class="section-header">Peripherals Assignment Details</div>
+        <table width="100%" style="margin: 15px 0;">
+            <tr align="center">
+                <td><input type="checkbox"> Keyboard</td>
+                <td><input type="checkbox"> Mouse</td>
+                <td><input type="checkbox"> Monitor 1</td>
+                <td><input type="checkbox"> Monitor 2</td>
+                <td><input type="checkbox"> Charger/Adapter</td>
+                <td><input type="checkbox"> Laptop Bag</td>
+                <td><input type="checkbox"> Docking Station</td>
+            </tr>
+        </table>
+
+        <div class="accountability-box">
+            <p><b>IT ASSET ACCOUNTABILITY DETAILS:</b></p>
+            <p style="font-size: 10.5px;">As the designated property custodian of the above-mentioned asset, I hereby acknowledge my responsibilities:</p>
+            <ul style="font-size: 10.5px; padding-left: 20px;">
+                <li>I shall ensure that the asset is used solely for company benefit and business purposes.</li>
+                <li>I shall take all necessary precautions to prevent loss, damage, or unauthorized use of the equipment.</li>
+                <li>In the event of loss or theft, I will report the incident to the IT Department and HR within 24 hours.</li>
+                <li>I understand that I am liable for any damage or loss resulting from negligence or violation of company policy.</li>
+                <li>I shall remain responsible to the Company until the formal transfer or return of my custodial responsibility.</li>
+            </ul>
+        </div>
+
+    <?php endif; ?>
+
+    <div class="section-header" style="margin-top:20px;">Notes / Remarks:</div>
+    <div style="border: 1px solid #ccc; height: 60px; width: 100%;"></div>
+
+    <table width="100%" style="margin-top:30px; text-align: center;">
+        <tr class="sig-label">
+            <td width="33%">Assigned To (Assignee)</td>
+            <td width="33%">Checked By (IT Personnel)</td>
+            <td width="33%">Approved By (IT Manager)</td>
+        </tr>
+        <tr>
+            <td class="sig-box"></td>
+            <td class="sig-box"></td>
+            <td class="sig-box"></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="left" style="font-size: 9px; padding-top: 5px;">
+                <i>** Signature over printed name and date</i>
             </td>
         </tr>
-        </table>
+    </table>
 
-    ";
-    }
-
-
-    ?>
-        <table width=100%>
-                    <tr>
-                        <td width=20% style="border: 1px solid;">Notes / Remarks:
-                        </td>
-                    </tr>   
-                    <tr>
-                        <td width=20% height=100px style="border: 1px solid;">
-                        </td>
-                    </tr>  
-        </table>
-
-    <br>
-        <table width=100%>
-                <tr style="font-size:14.5px;">
-                    <td width=33%>Assigned To (Assignee)
-                    <td width=33%>Checked By (IT Personnel)
-                    <td width=33%>Approved By (IT Manager)
-                </tr>
-                <tr>
-                    <td style="border:1px solid" height=120px> 
-                    <td style="border:1px solid">
-                    <td style="border:1px solid">
-                </tr>
-                <tr style="font-size:16px;">
-                    <td colspan=2><i>**Signature over printed name and date</i>
-                    <td>
-                </tr> 
-        </table>
-
-    </body>
+</body>
 </html>

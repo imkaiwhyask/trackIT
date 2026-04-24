@@ -848,7 +848,7 @@ else
             <tbody>
                 <?php
                     //$query=mysqli_query($con,"SELECT * from tbl_assetmain where country='".$country."' and (assetCondition!='RETIRED' or assetCondition!='DEFECTIVE')");
-                    $query=mysqli_query($con,"SELECT tbl_assetmain.* from tbl_assetmain,tbl_assetmainlogs where tbl_assetmainlogs.serial=tbl_assetmain.serial and (tbl_assetmain.assetCondition!='Disposed' OR tbl_assetmain.assetCondition!='Defective') and tbl_assetmain.country='".$country."' and tbl_assetmain.department!='Solar' group by serial");
+                    $query=mysqli_query($con,"SELECT tbl_assetmain.* from tbl_assetmain,tbl_assetmainlogs where tbl_assetmainlogs.serial=tbl_assetmain.serial and (tbl_assetmain.assetCondition!='Disposed' AND tbl_assetmain.assetCondition!='Defective') and tbl_assetmain.country='".$country."' and tbl_assetmain.department!='Solar' group by serial");
                         while($row=mysqli_fetch_assoc($query))
                         {
                         ?>
@@ -859,22 +859,28 @@ else
                                 <td><?php echo $row['computerName']?></td>
                                 <td><?php echo $row['serial']?></td>
                                 <?php
+                                $row2 = null;
+                                $hasActiveLog = false;
+                                $modalId = $row['id'];
+
                                 if($row['assetStatus']=='In Use')
                                 {
                                     $query2=mysqli_query($con,"SELECT tbl_assetmainlogs.id as 'logID' ,tbl_assetmainlogs.* from tbl_assetmainlogs where serial='".$row['serial']."' and country='".$country."' and status='active' order by id DESC LIMIT 1");
+                                    if($query2 && mysqli_num_rows($query2)<>0)
+                                    {
                                         $row2=mysqli_fetch_assoc($query2);
-                                        if($numrow=mysqli_num_rows($query2)<>0)
-                                        {
-                                            echo  "<td>".$row2['assignedTo']."</td>
-                                            <td>".$row2['igg']."</td>";
-                                        }
-                                        else
-                                        {
-                                            echo "<td></td>
-                                            <td></td>";
-                                        }
+                                        $hasActiveLog = true;
+                                        $modalId = $row2['logID'];
+                                        echo  "<td>".$row2['assignedTo']."</td>
+                                        <td>".$row2['igg']."</td>";
+                                    }
+                                    else
+                                    {
+                                        echo "<td></td>
+                                        <td></td>";
+                                    }
                                 }
-                                elseif($row['assetStatus']!='In Use') {
+                                else {
                                     echo "<td></td>
                                     <td></td>";
                                 }
@@ -885,36 +891,29 @@ else
                                     <!-- Button trigger modal -->
                                     
                                     <?php
-                                    if($row['assetStatus']=='In Use')
+                                    if($row['assetStatus']=='In Use' && $hasActiveLog)
                                     {
                                     ?>
-                                        <button class='btn btn-primary' data-toggle="modal" data-target="#exampleModal<?php echo $row2['logID']?>"><i class="fas fa-eye fa-xs"></i></button>
-                                        <a href='?inv=<?php echo $_GET['inv']?>&edit&id=<?php echo $row2['logID']?>'><button class='btn btn-success'><i class="fas fa-edit fa-xs"></i></button></a>
+                                        <button class='btn btn-primary' data-toggle="modal" data-target="#exampleModal<?php echo $modalId?>"><i class="fas fa-eye fa-xs"></i></button>
+                                        <a href='?inv=<?php echo $_GET['inv']?>&edit&id=<?php echo $modalId?>'><button class='btn btn-success'><i class="fas fa-edit fa-xs"></i></button></a>
                                     <?php
                                     }
                                     else
                                     {
                                     ?>
-                                        <button class='btn btn-primary' data-toggle="modal" data-target="#exampleModal<?php echo $row['id']?>"><i class="fas fa-eye fa-xs"></i></button>
+                                        <button class='btn btn-primary' data-toggle="modal" data-target="#exampleModal<?php echo $modalId?>"><i class="fas fa-eye fa-xs"></i></button>
+                                        <?php
+                                        if($row['assetStatus']=='In Use')
+                                        {
+                                            echo "<button type='button' class='btn btn-secondary' disabled title='No active asset log found'><i class='fas fa-edit fa-xs'></i></button>";
+                                        }
+                                        ?>
                                     <?php
                                     }
                                     ?>
                                     
                                     <!-- Modal -->
-                                    <?php
-                                    if($row['assetStatus']=='In Use')
-                                    {
-                                    ?>
-                                        <div class="modal  fade text-left" id="exampleModal<?php echo $row2['logID']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <?php
-                                    }
-                                    else
-                                    {
-                                    ?>
-                                         <div class="modal  fade text-left" id="exampleModal<?php echo $row['id']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <?php
-                                    }
-                                    ?>
+                                    <div class="modal  fade text-left" id="exampleModal<?php echo $modalId?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                    
                                         <div class="modal-dialog modal-xl  modal-dialog-scrollable">
                                             <div class="modal-content">
@@ -927,18 +926,21 @@ else
                                                 <div class="modal-body">
                                                     <div class='container-fluid'>
                                                         <?php
-                                                        if($row['assetStatus']=='In Use')
+                                                        if($row['assetStatus']=='In Use' && $hasActiveLog)
                                                         {
-                                                            $fetch=mysqli_query($con,"SELECT tbl_assetmain.*,tbl_assetmainlogs.* from tbl_assetmain,tbl_assetmainlogs where tbl_assetmain.serial=tbl_assetmainlogs.serial and tbl_assetmainlogs.id='".$row2['logID']."' and tbl_assetmainlogs.country='".$country."' and tbl_assetmainlogs.status='active'");
+                                                            $fetch=mysqli_query($con,"SELECT tbl_assetmain.*,tbl_assetmainlogs.* from tbl_assetmain,tbl_assetmainlogs where tbl_assetmain.serial=tbl_assetmainlogs.serial and tbl_assetmainlogs.id='".$modalId."' and tbl_assetmainlogs.country='".$country."' and tbl_assetmainlogs.status='active'");
                                                         }
                                                         else
                                                         {
-                                                             $fetch=mysqli_query($con,"SELECT tbl_assetmain.*,tbl_assetmainlogs.* from tbl_assetmain,tbl_assetmainlogs where tbl_assetmain.serial=tbl_assetmainlogs.serial and tbl_assetmain.id='".$row['id']."' and tbl_assetmain.country='".$country."' ");
+                                                             $fetch=mysqli_query($con,"SELECT * from tbl_assetmain where id='".$row['id']."' and country='".$country."' ");
                                                        
                                                         }
 
-                                                       
-                                                            $row_fetch=mysqli_fetch_assoc($fetch);
+                                                        $row_fetch=mysqli_fetch_assoc($fetch);
+                                                        if(!$row_fetch)
+                                                        {
+                                                            $row_fetch = $row;
+                                                        }
                                                         ?>
                                                         <div class='row'>
                                                             <div class='col modal-content-title'><b>General Information</b></div>
@@ -1030,7 +1032,7 @@ else
 
 
                                                         <?php
-                                                        if($row_fetch['assetStatus']=='In Use')
+                                                        if($row_fetch['assetStatus']=='In Use' && $hasActiveLog)
                                                         {
                                                         ?>
                                                             <div class='row'>
@@ -1166,7 +1168,7 @@ else
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                                     <?php
-                                                    if($row_fetch['assetStatus']=='In Use')
+                                                    if($row_fetch['assetStatus']=='In Use' && $hasActiveLog)
                                                     {
                                                     ?>
                                                         <a href='../forms/returnDesktop.php?id=<?php echo $row_fetch['id']?>' target='_blank'><input type=button class="btn btn-primary" value="Print Asset Return Form"></a>

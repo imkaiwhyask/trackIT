@@ -1,10 +1,8 @@
-<html>
-<html>
 <?php 
-
     session_start();
     include('../config/config.php');
 ?>
+<html>
     <title>IT Asset - Separation Form</title>
     <!-- Meta Declaration 
     <meta http-equiv="refresh" content="1"> -->
@@ -388,7 +386,7 @@
                     </tr>   
                     <tr>
                         <td width=20% height=150px style="border: 1px solid;">
-                            <?php echo nl2br($row2['remarks'])?>
+                           <?php echo isset($row2['remarks']) ? nl2br($row2['remarks']) : ''; ?>
                         </td>
                     </tr>  
         </table>
