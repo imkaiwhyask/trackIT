@@ -48,7 +48,7 @@ http://localhost:8080/it
 ### 3. Setup Database
 
 1. Open phpMyAdmin:
-   http://localhost:8080/phpmyadmin
+   http://localhost:8081
 
 2. Create a database named:
    trackit
