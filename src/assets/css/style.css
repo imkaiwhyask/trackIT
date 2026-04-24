@@ -1,0 +1,73 @@
+@font-face {font-family: "Medium"; src: url("../fonts/Montserrat-Medium.ttf");}
+@font-face {font-family: "Regular"; src: url("../fonts/Montserrat-Regular.ttf");}
+
+body {font-family:Regular;font-size:1em}
+
+.font-medium {font-family:Medium}
+
+.font-size-xs {font-size:0.5em;}
+.font-size-sm {font-size:1em;}
+.font-size-md {font-size:1.3em;}
+.font-size-lg {font-size:1.5em;}
+.font-size-xl {font-size:1.8em;}
+.font-size-xxl {font-size:2em;}
+.font-size-title-lg {font-size:2.5em}
+.font-size-title-xl {font-size:3em}
+
+.lh-13 {line-height: 1.3;}
+.lh-15 {line-height:1.5;}
+.lh-18 {line-height:1.8;}
+
+.font-color-gray {color:#8b8b8b}
+
+.hr-gray {width:80%;border:1px solid #8b8b8b}
+
+.pt-6 {padding-top:6%}
+.pt-7 {padding-top:7%}
+.pt-8 {padding-top:8%}
+.pt-9 {padding-top:9%}
+.pt-10 {padding-top:10%}
+
+.mt-6 {margin-top:6%}
+.mt-7 {margin-top:7%}
+.mt-8 {margin-top:8%}
+.mt-9 {margin-top:9%}
+.mt-10 {margin-top:10%}
+
+.input-round {width:100%;border-radius:5px;border:1px solid #8b8b8b}
+
+.btn-primary {
+	color: #fff;
+    background-color: #fd6300;
+    border-color: #fd6300;
+}
+
+.form-control:focus {
+    color: #fd6300;
+    background-color: #fff;
+    border-color: #fd6300;
+    outline: 0;
+ 	box-shadow: 0 0 0 .2rem rgb(255 83 0 / 25%);
+}
+
+    body {
+      background: #f5f7fa;
+    }
+    .login-card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px;
+      background: #fff;
+    }
+    .logo {
+  max-width: 320px;
+  transform: translateX(-30px);
+
+}
+
+@media (min-width: 768px) {
+  .logo {
+    max-width: 340px;
+  }
+}

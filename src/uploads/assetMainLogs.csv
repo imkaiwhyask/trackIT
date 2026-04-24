@@ -1,0 +1,392 @@
+id,serial,assinedTo,igg,department,location,bag,keyboard,mouse,ups,charger,dockingStation,monitor1,monitor2,permanentForms,returnForms,status,remarks,startDate,endDate,lastChanged,byUser,country
+,49XTJ12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Magtanong.Mars.thru.Macanlalay.Allan.pdf,,active,,,,2021-07-12,Migration,PH
+,83KLVZ1,IT service unit,IT service unit,,,YES,NO,NO,NO,YES,YES,NO,NO,,IT Asset Return Form - Mon Decena.pdf,active,used to manage PABX remotely,,,2021-07-12,Migration,PH
+,1C4F8W1,,,,,NO,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Temporary Assignment Form - Jerson, Abaygar.pdf",IT Asset Return Form - Lipang.Riordan.pdf,active,NOV VISION,,,2021-07-12,Migration,PH
+,1H42433,Lucio Stephenson,J0536200,Engineering,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,1SQ8YY2,"Iratay, Roselle San Juan",J0480623,CA - Credit,,YES,,,,YES,YES,,,"Laptop - IT Asset Permanent Assignment Form - IRATAY, Roselle.pdf",,active,,,,2021-07-12,Migration,PH
+,1YH2433,"Macaraig, Haidenel",J0473186,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,25K8YY2,Bayona Manolete Avena (for BCP use),J0526336,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,2HYWYY2,"Palman, Arnold Ramos",J0470992,Engineering,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - PALMAN, Arnold.pdf",,active,,,,2021-07-12,Migration,PH
+,2LG9YY2,FOR REPAIR,,CA - Budget,,,,,,,,,,,,active,For servicing,,,2021-07-12,Migration,PH
+,2N42433,"Oca*a, Honey Kae Macario",J0498680,Supply Operations,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,3439YY2,"Abesamis, Jennifer De Ocampo",J0322526,MKTG & Brnd Comms,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,L34T6CG2,BATTERMANN Jean-Pierre ,J0058019,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,3F42433,Macabulos Jose Ma Rubstrong I,J1045024,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,3GS6433,"BELLA, Isagani Jr. Del Castillo",J0262645,OPS - CCU,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,3QV2433,"Rusiana, Riaflor Aala",J0342465,CA - Tax & Acctng,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,43J2433,Belmonte Antoninia,J1022665,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,47RFV32,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,4MB2433,"Agsalud, Aileen Santos",J0480619,RETAIL - Pricing,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,4QX8YY2,"Ong, Ellen Rose Vismanos",J0458530,Supply Operations,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,4WQ8YY2,CUNANAN Cel Leila,J0532868,CA - Credit,,YES,,YES,,YES,YES,,,"Laptop - IT Asset Permanent Assignment Form - CUNANAN, Cel Leila.pdf",,active,,,,2021-07-12,Migration,PH
+,5KX8YY2,"Hugo, Chezka Mae Zafra",J0504521,CA - PURCHASING,,,,,,,,,,,,active,2-Dec,,,2021-07-12,Migration,PH
+,5QX8YY2,Casupanan Eduardo,J0480191,CA - Tax & Acctng,,,,YES,,YES,,,,,,active,,,,2021-07-12,Migration,PH
+,5RB2433,"Lachica, Mary Anne Canuto",J0431017,OPS - CCU,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,5Y03433,"Yao, Dennis Cortez",J0290059,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,6539YY2,"Cruz, Erwin",J0385655,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,65J2433,"Ruiz, Ashly Mari Esluzar",J0483677,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,68X1433,MANGAHAS Ray Daniel ,J05551504,RETAIL Business - North,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,6D42433,"Decena, Raymond Michael Cacdac",J0241317,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,6VF4433,"De Francia, Lourdes Cabello",J0101330,HR,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,6Z29YY2,"BALOT, Almira",J0480160,CA - Credit,,YES,,YES,,YES,YES,,,"Laptop - IT Asset Permanent Assignment Form - BALOT, Almira.pdf",,active,,,,2021-07-12,Migration,PH
+,7439YY2,LABRADOR Tanya-Marie,J0485123,HR,,YES,,YES,,YES,,,,Laptop - IT Asset Permanent Assignment Form - LABRADOR Tanya-Marie.pdf,,active,,,,2021-07-12,Migration,PH
+,7JP2433,"Castro, Ma. Cecilia Bermudez",J0480046,RETAIL Business - North,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,7LX8YY2,Segismundo Jewell,J1004171,HSE,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,7MX8YY2,"Ilao, Dahlia Peradilla",J0480202,CA - Tax & Acctng,,YES,,YES,,YES,,,,,,active,,,,2021-07-12,Migration,PH
+,7WB2433,"Vengco, Cesaria Portugal",J0347197,RETAIL - Pricing,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,7ZH2433,"Rey, Ian Emil Zulueta",J0480613,RETAIL Business - South,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,80B98S2,CARPIO Noel-Uldarico ,J0480625,Marketing,,,,,,,,,,,,active,PHRMBON-L000351,,,2021-07-12,Migration,PH
+,83K8YY2,"Roccon, Anne Cecile", J0418455,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,86J2433,"Esquivel, Michael Paul Eleazar",J0480052,RETAIL Business - South,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,8JP2433,"Batica, Brian Anthony Latorre",J0432899,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,90R8YY2,"RAMOS, Chiquo Mar",J0535721,Engineering,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,94K8YY2,"Lanting, John Tristan De Sagun",J0479292,Engineering,,YES,,YES,,YES,,,,,,active,,,,2021-07-12,Migration,PH
+,99K8YY2,Ocampo-Finuliar Glandell,J0347152,CA - Budget,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,9GX8YY2,"Reccion, Norgel Dela Cruz",J0322142,Retail Development,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,9HX8YY2,VELASCO Jarvey,J0471601,,,YES,,YES,,YES,,,,"Laptop - IT Asset Permanent Assignment Form - MACAPAGAL, Melissa.pdf",,active,,,,2021-07-12,Migration,PH
+,9PQ8YY2,Paulino Rolando,J1014698,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,9VB2433,"Manzarate, Maxima Pasa",J0442587,CA - Credit,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,B4K8YY2,RENTA Ma-Baberly,J0481802,CA - PURCHASING,,YES,,YES,,YES,,,,,,active,,,,2021-07-12,Migration,PH
+,BS73433,"Llamas, Dioscoro Antonio III Flores",J0320675,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,BTKKYY2,"Balagtas, Roy Phillip",J0527460,Engineering,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,BWB2433,"Rosales, Shiela Marie Tarroza",J0480684,Retail Development,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,C0J2433,,,Supply Operations,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,C8P2433,"Tiongco, Ariel Vincent Malhabour",C8P2433,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,CFP2433,"Aleta, Lawrence Frazer Talavera",J0311935,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,CLB2433,"Reyes, Venessa",J1004461,OPS - CCU,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,CPX8YY2,"Juaiting, May Manimtim",J0319302,MANCOM,,YES,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CRV2433,CHING Flery ,J0407281,RETAIL - SFS,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,CVV2433,"Calma, Jorjetti Busalpa",J0425026,CA - Budget,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,CXQ8YY2,"VILLAFLOR, Dyezebel-Rose",J0495861,HR,,YES,,YES,,YES,,,,,,active,,,,2021-07-12,Migration,PH
+,D2B98S2,PANTALEON Kern ,J1008569,CA - Tax & Acctng,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,D5K8YY2,Alvarez Pamela (for bcp use),J0368328,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,D5P6433,PERLAS Patricia-Anne ,J0262759,Supply Operations,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,DZQ8YY2,"Fayo, Harold",L1027333,SOLAR,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,FDP2433,"Verango, Sheila Jane A*onuevo",J0481801,Engineering,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,FFX8YY2,"Olanio, Daisy Garcia",J0388370,CA - Budget,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,FNV2433,"Esparcia, Angela Pearl Morta",J0505324,HSE,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,FTB2433,"Evangelista, Maria Teresa Dizon",J0425029,MDs Ofc ,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,FXH2433,"Simbulan, Diana Sy",J0320664,Retail,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,G2J2433,"Albano, Stephen",J0423813,Commercial,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,G339YY2,Cortes Mary Jean,J0480203,RETAIL Business - South,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,G357433,"SUPAN, Jenni Rose",J0345976,Marketing,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,LG7K8YY2,"Emralino, Erika Clarisse Villanueva",J0465957,OPS - CCU,Taguig,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,G842433,Punzalan Aaron,J1021224,RETAIL Business,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,GH42433,"Espina, Maria Lourdes",J0241281,MANCOM,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,H53MVP2,Tumaque Juan Paulo,L1046343,Engineering,Taguig,YES,YES,YES,NO,YES,YES,YES,NO,"Laptop - IT Asset Permanent Assignment Form - Bermejo, Agnes.pdf",,active,,,,2021-07-12,Migration,PH
+,H9P2433,Barbasan Celine Jade,L1045492,SOLAR,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,HSV2433,DELA-VEGA Mylyn,J0428964,Marketing,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,J5K8YY2,"CASA, Primitiva",J0347136,CA - PURCHASING,,YES,,,,YES,,,,"Laptop - IT Asset Permanent Assignment Form - CASA, Primitiva.pdf",,active,,,,2021-07-12,Migration,PH
+,J6QWM72,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,for possible resale w/ don,,,2021-07-12,Migration,PH
+,JNB2433,"Jacinto, Mae Diana Sicat",J0396699,RETAIL - Pricing,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,JTQ8YY2,Lugtu Clara,L1034929,CA - IT,,YES,,YES,,YES,,,,,,active,check w/ Gio Asset Return form 8/23/20,,,2021-07-12,Migration,PH
+,C12TF2S,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,G12TF2S,,,,,NO,NO,NO,NO,NO,NO,NO,NO,,Desktop- IT Asset Return Form.pdf,active,Stock Room 8th Floor,,,2021-07-12,Migration,PH
+,8KFYQ12,,,HR,Taguig,NO,YES,YES,YES,NO,NO,NO,NO,Desktop - IT Asset Permanent Assignment Form - Eleanor.Paraan.pdf,Desktop - IT Asset Return Form-Casa.Eva.pdf,active,,,,2021-07-12,Migration,PH
+,GKFYQ12,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,5KFYQ12,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CKFYQ12,Bulanhagui Virgilio for Jun,J0347133,Supply Operations,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3CJBR42,,,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2FJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,"Dekstop - IT Asset Return Form - Llagas, Joselle Patricia Villamor .pdf",active,,,,2021-07-12,Migration,PH
+,FJKBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9CJBR42,Unassigned,Unassigned,,,NO,YES,YES,NO,NO,NO,YES,NO,"IT Asset Permanent Assignment Form - BULANHAGUI , VIRGILIO.pdf",,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,BBJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,"Desktop - IT Asset Return Form - NEPOMUCENO, Arlene.pdf",active,,,,2021-07-12,Migration,PH
+,7QJBR42,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Stock Room 8th Floor,,,2021-07-12,Migration,PH
+,5RJBR42,,,,,NO,YES,YES,YES,NO,NO,YES,NO,Desktop - IT Asset Permanent Assignment Form - Manuel.Abardo.pdf,"Desktop - IT Asset Return Form - DIMA, Michelle.pdf",active,,,,2021-07-12,Migration,PH
+,3MJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,8PJBR42,"Lachica, Mary Anne Canuto",J0431017,OPS - CCU,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CFJBR42,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,1BJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,1HJBR42,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,8GJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DMJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,JCJBR42,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,Desktop - IT Asset Return Form. Cristobal.Sandra.pdf,active,,,,2021-07-12,Migration,PH
+,FQJBR42,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,9LJBR42,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,72PJH62,Bautista Elmer Anthony,L1046667,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,72RF862,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,730JH62,,,RETAIL Business,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,72NK862,PRUDENTE Emmerson,L0527905,THIRD PARTY,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,72FZH62,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DQYZG82,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,"Desktop - IT Asset Return Form - NARAG, Loida.pdf",active,,,,2021-07-12,Migration,PH
+,DQY5H82,Bayona Manolete Avena,J0526336,OPS - CCU,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DQY7H82,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,DQY3H82,REGALA Jennifer ,L1049142 ,HR,,NO,YES,YES,YES,NO,NO,YES,NO,,,active,,,,2021-07-12,Migration,PH
+,DQY0H82,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,DQY6H82,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DQY4H82,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Stock Room 8th Floor,,,2021-07-12,Migration,PH
+,DQWZG82,,,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,DQX5H82,"Unabia, Rodelia",,CA - Tax & Acctng,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,72WKH62,,,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,730M862,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,4K1B0T2,"Katada, Mcklin II Lagunero",J0527954,SOLAR,,NO,YES,YES,YES,NO,NO,NO,NO,IT Asset Permanent Assignment Form - Beltran.Micheal.Jayson.pdf,,active,,,,2021-07-12,Migration,PH
+,4K070T2,"Abdulla, JR Bashir",J0537582,SOLAR,,NO,YES,YES,YES,NO,NO,NO,NO,IT Asset Permanent Assignment Form - Abdulla.Bashir.pdf,,active,,,,2021-07-12,Migration,PH
+,D2JS8T2,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,Desktop - IT Asset Permanent Assignment Form - Casa.Eva.pdf,,active,,,,2021-07-12,Migration,PH
+,D2MV8T2,Unassigned,Unassigned,,,NO,YES,YES,YES,NO,NO,NO,NO,,Desktop- IT Asset Permanent Assignment Form.Cristobal.Sandra.pdf,active,,,,2021-07-12,Migration,PH
+,D2LW8T2,,,,Taguig,NO,YES,YES,NO,NO,NO,YES,NO,"Desktop -IT Asset Permanent Assignment Form - MILITANTE, Jose.pdf","Desktop - IT Asset Return Form - MILITANTE, Joco.pdf",active,,,,2021-07-12,Migration,PH
+,D2KW8T2,Menor Princess Diane,L1038563,CA - Tax & Acctng,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,D2NS8T2,Villarma Mayflor,L1033871,Supply Operations,Taguig,NO,YES,YES,YES,NO,NO,NO,NO,"IT Asset Permanent Assignment Form - Vengco, Cesaria Portugal.pdf",,active,,,,2021-07-12,Migration,PH
+,JJ4F8W1,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9P35HV1,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Disposed 2019,,,2021-07-12,Migration,PH
+,H95F8W1,"Don, Amorsolo Gallardo",J0347145,CA - IT,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3K4F8W1,,,,Taguig,NO,NO,NO,NO,YES,NO,NO,NO,IT Asset Permanent Assignment Form - Angela Esparcia .pdf,,active,,,,2021-07-12,Migration,PH
+,8C4F8W1,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,3K5F8W1,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,f0vd8w1,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,120BVY1,"Yutuc, Kevin Danielle Lara",J0517745,CA - Tax & Acctng,,NO,NO,NO,NO,YES,NO,NO,NO,"Logbook May 27, 2019",Laptop - IT Asset Return Form.DelaVega.Mylyn.pdf,active,NOV VISION,,,2021-07-12,Migration,PH
+,C60BVY1,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,GGWTJ12,,,,Taguig,NO,YES,YES,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - GESULGA, Renato.pdf","Laptop & Mobile - IT Asset Return Form - LIPANG, Riordan.pdf",active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,5DMNVZ1,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,CDMNVZ1,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Asset Return Form - GARCIA, Rainier.pdf",active,,,,2021-07-12,Migration,PH
+,3FMNVZ1,,,,,,,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,4CKLVZ1,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,for possible resale w/ don,,,2021-07-12,Migration,PH
+,7XMNVZ1,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,1MMNVZ1,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,13KLVZ1,,,HR - E&P,,NO,YES,YES,YES,YES,NO,NO,NO, IT Asset Permanent Assignment Form -Elizabeth De Guzman.pdf,,active,,,,2021-07-12,Migration,PH
+,32KLVZ1,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DPGJG12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Aseet Return Form - CHING, Flery.pdf",active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,9PGJG12,Unassigned,Unassigned,,,NO,YES,YES,NO,YES,YES,NO,NO,,IT Asset Return Form - Escueta.Leonar,active,Disposed 2019 RITM1385561 - request to remove from AD  4/1/19,,,2021-07-12,Migration,PH
+,BGGJG12,,,,Taguig,NO,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignement Form - ALEJANDRO, Jowell.pdf",,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,8TGJG12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,Laptop - IT Asset Return Form-Pocholo.Savellano.pdf,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,6RGJG12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,YES,NO,,IT Asset Return Form Laptop_J Amparo.pdf,active,RITM1400360 - request fo remove from AD 4/10/19,,,2021-07-12,Migration,PH
+,JWHJG12,"Begino, John Patrick",L1021676,CA - Credit,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,5JHJG12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CFJJG12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,7QGJG12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,Laptop and Mobile - IT Asset Return Form - German Elcid.pdf,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,G80VJ12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,IT Asset Return Form - Quimbo.Sean.pdf,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,FDWTJ12,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,7BWTJ12,,,SOLAR,,NO,NO,NO,NO,NO,NO,NO,NO,IT Asset Permanent Assignment Form - Abdulla.Bashir.pdf,,active,for disposal,,,2021-07-12,Migration,PH
+,DFWTJ12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,5LWTJ12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop & Mobile - IT Asset Return Form - MONSALUD, Emman.pdf",active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,FXZTJ12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,1VWTJ12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,for possible resale w/ don,,,2021-07-12,Migration,PH
+,41XTJ12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,GHWTJ12,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Asset Return Form - DeVera, Michael.pdf",active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,BBWTJ12,unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,GTWTJ12,,,,taguig,YES,NO,YES,NO,YES,NO,NO,NO,IT Asset Permanent Assignement Form - Raul Bonitez.pdf,,active,,,,2021-07-12,Migration,PH
+,GV9XN32,Inso Vincent,L1039495,,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,H9WTJ12,Unassigned,Unassigned,,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - SOLIVERES, Angelo.pdf","Laptop - IT Asset Return Form - SOLIVERES, Angelo.pdf",active,,,,2021-07-12,Migration,PH
+,JWWTJ12,,,,,YES,YES,YES,NO,YES,NO,NO,NO,,IT Asset Return Form - Cesar Cortes.pdf,active,,,,2021-07-12,Migration,PH
+,HXWTJ12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9V8XN32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BM9XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Asset Return Form - Lucena, Rogelio.pdf",active,,,,2021-07-12,Migration,PH
+,HH9XN32,,,,,YES,NO,NO,NO,YES,NO,NO,NO,IT Asset Permanent Assignment Form - Magtanong.Mars.thru.Rubina.Paul.pdf,,active,,,,2021-07-12,Migration,PH
+,4CWSN32,Unassigned,Unassigned,,,NO,NO,YES,NO,YES,NO,NO,NO,,IT Asset Return Form - Samaniego.Cristina.Buston.pdf,active,Disposed 2019 RITM1385594 -request to remove from AD 4/1/19,,,2021-07-12,Migration,PH
+,9P9XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,5WSSN32,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,29WTJ12,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,169XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,Laptop - IT Asset Return Form - Jay Sanchez.pdf,active,,,,2021-07-12,Migration,PH
+,8T8XN32,,,,,,,,,,,,,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,9L9XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Aug 2019,,,2021-07-12,Migration,PH
+,9PNXN32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,D99XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,7S9XN32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,6MWTJ12,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,TO BE REMOVED FROM AD,,,2021-07-12,Migration,PH
+,7J8XN32,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop- IT Asset Return Form - ADQUILLEN, Lorna.pdf",active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,2KYX662,"Ramos, Roldan Melchor",L1040512,SOLAR,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DTHJV32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,GFZHV32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,4ZV662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2DLZ662,,,,,YES,NO,YES,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,534Y662,"Secretaria, Jaime Gempesao",J0480612,Retail Development,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BGYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2ZHJV32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BFQZ662,,,,,YES,NO,NO,NO,YES,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2KQZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,4KQZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,HNRX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CQRX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,1GQZ662,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,1KQZ662,,,CA - Tax & Acctng,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,5GQZ662,"Japitana, Al Apelarta",J0480152,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2ZVZ662,VELASCO Jarvey for SGV use,J0471601,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9HQZ662,,,Commercial,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,C8LX662,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Asset Return Form - LLENADO,Aldah.pdf",active,,,,2021-07-12,Migration,PH
+,BTVZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,8BLZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,G7MX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,JW7WC72,,,CA - Credit,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - SALMORIN, Jaziel.pdf","Laptop & Mobile - IT Asset Return Form - RIOTOC, Cherylyn.pdf",active,,,,2021-07-12,Migration,PH
+,2HYX662,,,RETAIL Business - South,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,Laptop and Mobile IT Asset Permanent Assignment Form - DaviLavadia.pdf,IT Asset Return Form - Cecilio.Carlo.pdf,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,8VHJV32,Unassigned,Unassigned,,,NO,NO,NO,NO,YES,NO,NO,NO,,IT Asset Return Form - Dexter.Flores.pdf,active,Disposed July 2020 RITM1416073 - remove from AD  4/23/19,,,2021-07-12,Migration,PH
+,4QYX662,,,,,YES,YES,YES,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Ablaza.Elaido.pdf,IT Asset Return Form - Javier.Joan.pdf,active,,,,2021-07-12,Migration,PH
+,6410762,,,SOLAR,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - Emralino, Erika Clarisse.pdf","IT Asset Return Form - ALAMPAY, Beatrice.pdf",active,,,,2021-07-12,Migration,PH
+,CCLZ662,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,IT Asset Return Form - Rayos.Grace.pdf,active,Disposed Jul 2020 RITM1416073 - remove from AD  4/23/19,,,2021-07-12,Migration,PH
+,HN4WC72,"Lim, Cindy Viola",J0480195,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BJYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020 returned defective hdd,,,2021-07-12,Migration,PH
+,2CLZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DTRX662,,,Marketing,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,CP4WC72,"Briones, Maria Donna Rico",J0480047,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,JS7WC72,"Carandang, Kensan",J1044862,RETAIL Business - North,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2W7WC72,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,B7LX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BPYX662,LABRAGUE Stewart,L1046393,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,6S4WC72,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CQ4WC72,"Griengo, Janriel Vincent Tenefrancia",J0532802,CA - Internal Control,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3DLZ662,"Villegas, Jason King Yee",J0480200,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DNRX662,"Villegas, Anthony Jerome Esca*o",J0482336,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,JQ4WC72,"Bruni, Sandro ",J0521286,SOLAR,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,8FYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CXH0762,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,NO,NO,NO,,"IT Asset Return Form - Jimenez, Ariel.pdf",active,Disposed Jul 2020 RITM1416073 - remove from AD  4/23/19,,,2021-07-12,Migration,PH
+,51WZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,G6LX662,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,IT Asset Return Form - Rodriguez.Arnie.pdf,active,,,,2021-07-12,Migration,PH
+,F9LZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,IT Asset Return Form.Garcia.Maricel.Ayala,active,,,,2021-07-12,Migration,PH
+,7910762,,,,,NO,YES,YES,NO,YES,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,68LZ662,,,HR,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,8JQZ662,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,IT Asset Return Form - Steley.Colin.pdf,active,,,,2021-07-12,Migration,PH
+,3GYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,2VVZ662,"Mangraon, Dyanne Kristine",L1045152,SOLAR,,YES,NO,NO,NO,YES,YES,NO,NO,,Laptop and Mobile  - IT Asset Return Form - Jan Dagala.pdf,active,,,,2021-07-12,Migration,PH
+,4CLZ662,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,"Laptop - IT Asset Return Form - SOLO, Michael.pdf",active,Disposed July 2020,,,2021-07-12,Migration,PH
+,7CLZ662,Unassigned,Unassigned,,,NO,NO,NO,NO,NO,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,4060762,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020 defective OS or hdd,,,2021-07-12,Migration,PH
+,GHQZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,78LX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,7T4WC72,,,,,YES,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - De Lara, Janice.pdf","Laptop - IT Asset Return Form - Payumo, John Marvin.pdf",active,,,,2021-07-12,Migration,PH
+,JMYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,4ZLJV32,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,FPRX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3NQZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,29LX662,Pedrina Justine,L1038564,SOLAR,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,Laptop & MObile - IT Asset Permanent Assignment Form - MANGAHAS Ray Daniel.pdf.pdf,IT Asset Return Form - Lim.Kevin,active,,,,2021-07-12,Migration,PH
+,HLQZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3MYX662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,"defective battery, lcd",,,2021-07-12,Migration,PH
+,5BLZ662,"Melendez, Kerwin",J1008550,Engineering,,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form-Melendez, Kerwin.pdf",,active,,,,2021-07-12,Migration,PH
+,HDN0762,"Nolasco, Velma Nudo",J0480677,CA - Credit,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,58LZ662,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,7HQZ662,Bermejo Juckol,L1042944,CA - Tax & Acctng,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,BKQZ662,,,RETAIL Business - North,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,3PRX662,,,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DRRX662,,,Engineering,,YES,NO,NO,NO,YES,YES,NO,NO,IT Asset Permament Assignment Form - Angela Esparcia,,active,,,,2021-07-12,Migration,PH
+,2YPWG72,"Aguilar, Mark Marmol",J0526762,Engineering,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,D0FTG72,,,RETAIL Business - South,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,4X4WG72,,,RETAIL Business - North,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,1SSVG72,"MARIO, Danive",J1003474,CA - Credit,Taguig PH,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop & Mobile - IT Asset Permanent Assignment Form - MARIO, Danive.pdf","Laptop & Mobile - IT Asset Return Form - DECLARO, Katrina.pdf",active,,,,2021-07-12,Migration,PH
+,B7FRRC2,"Osi, Cynthia Umali",J0323482,Commercial,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000289 old computer name,,,2021-07-12,Migration,PH
+,36FPRC2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,97FRRC2,,,,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,Laptop and Mobile IT Asset Permanent Assignment Form-KevinYutuc.pdf,IT Asset Return Form - Chen.Min.Cheng.pdf,active,NO BATTERY,,,2021-07-12,Migration,PH
+,2999CG2,,,,,YES,NO,YES,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Labrador.Tanya.Marie.pdf,,active,"Disposed Jul 2020 bloated battery - to  be removed from AD, ticket RITM1887998",,,2021-07-12,Migration,PH
+,74FRRC2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000293 old computer name,,,2021-07-12,Migration,PH
+,3F0DYF2,Pedrina Justine,L1038564,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000294 old computer name,,,2021-07-12,Migration,PH
+,J03DYF2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,8C0DYF2,,,,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,7Z2DYF2,,,,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,DG0DYF2,,,RETAIL Business,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,NO BATTERY,,,2021-07-12,Migration,PH
+,DG18YF2,"Mira, Carmela Jasmine",J0541629,CA - Tax & Acctng,,YES,NO,NO,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Mira.Carmela.Jasmine.pdf,,active,bloated battery - to  be removed from AD,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,removed from AD request RITM2285198,,,2021-07-12,Migration,PH
+,7LY8YF2,,,MKTG & Brnd Comms,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020,,,2021-07-12,Migration,PH
+,9Y2DYF2,"Ignacio,  Melody",L1047505,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000303 old computer name,,,2021-07-12,Migration,PH
+,BF0DYF2,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020 BLOATED DEFECTIVE BATTERY RITM1671082,,,2021-07-12,Migration,PH
+,JC0DYF2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000305,,,2021-07-12,Migration,PH
+,513DYF2,,,CA - Credit,,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - LACHICA, Mary-Anne.pdf",,active,,,,2021-07-12,Migration,PH
+,DV58YF2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,GK0DYF2,Unassigned,Unassigned,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,Disposed Jul 2020 BLOATED DEFECTIVE BATTERY RITM1671082,,,2021-07-12,Migration,PH
+,3T2HVF2,"FIELDS, Aileen",L1027887,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9MS9QH2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - CASTRO, Ma-Cecilia.pdf",,active,check w/ Gio Asset Return form 8/23/20,,,2021-07-12,Migration,PH
+,JLS9QH2,,,Commercial,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,JN8MVP2,Montero Patricia,L1035840,,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,,,active,old comp name PHRMBON-L000312 - for staging to win 10 1909 - ,,,2021-07-12,Migration,PH
+,4T8MVP2,"Aves, Jermaine Belle Cabati",J0486849,RETAIL Business - South,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,,"IT Asset Return Form - Laptop and Mobile - Fernandez, Johnas.pdf",active,,,,2021-07-12,Migration,PH
+,453MVP2,MARIBLANCA Rona Jane ,J0551496,RETAIL Business,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,Laptop and Mobile IT Asset Permanent Assignment Form - Rona jane Mariblanca.pdf,"Laptop - IT Asset Return Form - MOSENDE, Jeshley Ann.pdf",active,,,,2021-07-12,Migration,PH
+,C33MVP2,"Delos Reyes, Ryan Frederick",J0537797,CA - Budget,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,523MVP2,"Ablaza, Eladio III",J0539671,Engineering,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,DKXQVP2,"Reynaldo, Reynaldo",L1040441,SOLAR,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,Laptop and Mobile IT Asset Permanent Assignment Form-MichDima.pdf,Laptop IT Asset Return Form-Michelle Dima,active,"FROM PHRMBON-L000317 to PH-LDKXQVP2, Request for staging to win10",,,2021-07-12,Migration,PH
+,GZ2MVP2,"Javier, Ma Lianda",J0538612,Marketing,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,PHRMBON-L000318 - OLD computer name,,,2021-07-12,Migration,PH
+,92D74O2,"LLENADO, Aldah",J0480678,,,YES,NO,NO,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Roccon.Anne.Cecile.pdf,,active, OLD COMPUTER NAME PHRMBON-L000319,,,2021-07-12,Migration,PH
+,8N3M8S2,,,,,YES,NO,NO,NO,YES,YES,NO,NO,,,active,"for staging to win 10, PHRMBON-L000321 to PH-L8N3M8S2",,,2021-07-12,Migration,PH
+,74B98S2,"Salazar, Ma. Theresa Bonifacio",J0347184,RETAIL Business,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,9649852,"OANA, Ezequiel",J1007525,OPS - CCU,Taguig,NO,NO,NO,NO,YES,YES,,,,"Laptop - IT Asset Permanent Assignment Form - LACHICA, Mary Anne .pdf",active,,,,2021-07-12,Migration,PH
+,HZ998S2,"Secretaria, Jaime Gempesao",J0480612,Retail Development,,,,,,,,,,"Laptop - IT Asset Permanent Assignment Form - LLENADO, Aldah.pdf",,active,,,,2021-07-12,Migration,PH
+,Cy998s2,"Solo, Michael",J0480050,RETAIL Business - North,,YES,NO,YES,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - SOLO, Michael.pdf",,active,,,,2021-07-12,Migration,PH
+,3F498S2,"Adquillen, Lorna Sebastian",J0285643,RETAIL Business - North,Taguig,YES,NO,YES,NO,YES,YES,,,,,active,,,,2021-07-12,Migration,PH
+,2S3M8S2,"ESTRADA, May Marie",J0367060,RETAIL Business - South,,YES,NO,NO,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - ESTRADA, May.pdf",,active,,,,2021-07-12,Migration,PH
+,16498S2,"Sanchez, Glenmore Mark Anthony Malimban",J0422693,RETAIL Business - South,Taguig PH,YES,NO,YES,NO,YES,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,17YM8S2,"Amparo, Jonabeth Apego",J0347125,CA - Credit,Taguig,YES,YES,YES,,YES,YES,YES,,IT Asset Permanent Assignment Form_J Amparo.pdf,,active,,,,2021-07-12,Migration,PH
+,D9498S2,Rosario Jaime Jr.,L1050301,Commercial,Taguig,YES,NO,YES,NO,YES,,NO,NO,Laptop  & Mobile - IT Asset Permanent Assignment Form - GUERRERO Marc.pdf,,active,,,,2021-07-12,Migration,PH
+,JMH98S2,"AZUL, Augusto ",J1012616,OPS - CCU,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,Laptop - IT Asset Permanent Assignment Form - NEPOMUCENO Arlene.pdf,,active,,,,2021-07-12,Migration,PH
+,F8498S2,AMADOR Maicel ,J1001974,CA - Internal control,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,Laptop  Mobile - IT Asset Permanent Assignment Form - MENDEZ Antoinette.pdf,Laptop and Mobile - IT Asset Return Form - German Elcid.pdf,active,,,,2021-07-12,Migration,PH
+,3PH98S2,"Nepomuceno, Arlene Lacanilao",J0480151,CA - Credit,,YES,,,,YES,YES,YES,,"IT Asset Permanent Assignment Form laptop - Aala,Riaflor.pdf",,active,,,,2021-07-12,Migration,PH
+,9P3M8S2,"Guanizo, Mary Jane Banezo",J0484018,Supply Operations,,YES,,YES,,YES,YES,YES,, IT Asset Permanent Assignment Form - Guanizo.MaryJane.pdf,,active,,,,2021-07-12,Migration,PH
+,JQH98S2,"Aves, Jermaine Belle Cabati",J0486849,RETAIL Business - South,Taguig,NO,YES,YES,NO,YES,NO,YES,,"Laptop & Mobile - IT Asset Permanent Assignment Form - GARIN, Giovani.pdf",,active,,,,2021-07-12,Migration,PH
+,BR3M8S2,"GARCIA, Rainier Rae Ladeza",J0435065,Commercial,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - GARCIA, Rainier.pdf",,active,,,,2021-07-12,Migration,PH
+,GQ3M8S2,"Samaniego, Cristina Buston",J0347186,Lubemarine,,YES,NO,YES,NO,YES,YES,NO,NO,IT Asset Permanent Assignment Form - Samaniego.Cristina.Buston.pdf,,active,,,,2021-07-12,Migration,PH
+,FKH98S2,"Sanchez, Gilzon Josef",J0442091,Commercial,Taguig,YES,NO,NO,NO,YES,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,2Y99852,BELISTA Michael ,L1024974,,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,Laptop- IT Asset Permanent Assignment Form - Cindy Garcitos.pdf,,active,,,,2021-07-12,Migration,PH
+,2MH98S2,,,,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,35498S2,"Coscolluela, Ana",J0468519,Marketing,,,,,,,,,,Laptop - IT Asset Permanent Assignment Form - Melissa.Golpeo.pdf,,active,,,,2021-07-12,Migration,PH
+,93B98S2,"Rolle, Derson Soriano",J0480186,RETAIL - SFS,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - BUENCAMINO, Brian.pdf",,active,PHRMBON-L000343,,,2021-07-12,Migration,PH
+,2SH98S2,"Catimbang, Rixon Lacanienta",J0480057,RETAIL Business - South,Taguig,YES,YES,YES,NO,YES,YES,YES,,Laptop- IT Asset Permanent Assignment Form - Mon Decena.pdf,,active,SWAPPED HDD WITH,,,2021-07-12,Migration,PH
+,JM3M8S2,"ALAMPAY, Beatrice",J0520995,CA - Legal,Taguig,YES,YES,YES,NO,YES,YES,NO,NO,"IT Asset Permanent Assignment Form - ALAMPAY, Beatrice.pdf",IT Asset Return Form - De Vera Michael.pdf,active,,,,2021-07-12,Migration,PH
+,FFRR8S2,"Narag, Loida Tabula",J0480685,CA - Credit,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,CB498S2,CONCEPCION Xuxia Gheil,J1001830,CA - Tax & Acctng,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,"Laptop & Mobile - IT Asset Permanent Assignment Form - CONCEPCION, Xuxia.pdf",,active,,,,2021-07-12,Migration,PH
+,J2B98S2,,,Retail - Cards,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,Laptop - IT Asset Permanent Assignment Form - ALBIOLA Francheska.pdf,,active,PHRMBON-L000348 - old computer name,,,2021-07-12,Migration,PH
+,D7DR8S2,Unassigned,Unassigned,,,,,,,,,,,"Laptop - IT Asset Permanent Assignment Form - ALCAZAREN, Jonathan.pdf",,active,PHRMBON-L000349 old computer name,,,2021-07-12,Migration,PH
+,1R3M8S2,"Ygot, Froilan Agraviador",J0485884,Engineering,Taguig PH,YES,NO,YES,NO,YES,YES,NO,NO,"Laptop - IT Asset Permanent Assignment Form - DEL-ROSARIO, Felipe.pdf",,active,,,,2021-07-12,Migration,PH
+,1D498S2,"Mira, Carmela Jasmine",J0541629,CA - Tax & Acctng,Taguig,YES,NO,YES,NO,YES,NO,NO,NO,"Laptop - IT Asset Permanent Assignment Form - Mira, Carmela Jasmine.pdf",,active,,,,2021-07-12,Migration,PH
+,7PH98S2,Bermejo Juckol,L1042944,Commercial,Taguig,YES,NO,NO,NO,YES,YES,NO,NO,Laptop - IT Asset Permanent Assignment Form - MILITANTE Jose.pdf,,active,,,,2021-07-12,Migration,PH
+,3k3M8S2,GARIANDO Gerilee-Vincent,J0480067,RETAIL Business - South,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,C5B98S2,"Principe, Marylyn Catalan",J0480162,CA - Credit,Taguig,YES,NO,YES,NO,YES,YES,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,D12TF2S,Server Room,Server Room,CA - IT,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,H12TF2S,Server Room,Server Room,CA - IT,,NO,YES,YES,YES,NO,NO,NO,NO,,,active,,,,2021-07-12,Migration,PH
+,,"Pabalan, Kier Mervin Ti*a",J0535863,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Magtanong Mars,J0441188,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Quillon, Israel Billedo",J0480068,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Garay, Maria Mae Reyes",J0411087,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Reyes Deborah Rae,L1038382,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Bormuel Kay,J0461954,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Quisumbing, Mikhael Nicolo",J1044860,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Ducos, Ronualdo Eugenio",J0480198,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Martinez, Angelito Viana",J0347170,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Don, Amorsolo Gallardo",J0347145,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Bontia Archie,L1030895,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Pasion, Portia Antonette",J0543505,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Yutuc, Kevin Danielle",J0517745,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Cleofe, Maria Josefina Faelenca",J0480043,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Acueza, Rosette Cabuscabus",J0347114,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Padilla, Helen Grace Guevara",J0480680,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"SALMORIN, Jaziel",J1002422,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Evite, John Marvi Barcarcel",J0495532,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Carandang Kensan,J1044862,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Nadal, Miguel Raphael Ramirez",J0480168,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Gillego Nerissa,L1046400,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Pante Joanne,L1041599,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"De Guzman, Elizabeth Andres",J0262202,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Apole, Raul Galgo",J0411089,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Abdulla, Bashir",J0537582,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"De Lara, Janice Rivera",J0480182,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Briones, Maria Donna Rico",J0480047,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Adrao, Alvin Noel Villar",J0496603,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Bulanhagui Virgilio,J0347133,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Flordeliza, Joselito Filoteo",J0322497,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Donato, Jeriko Roman Matic",J0482824,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Tangtatco, Gerald Franklin Tan",J0347193,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Japitana, Al Apelarta",J0480152,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,Bermejo Agnes,J0347131,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Villegas, Jason King Yee",J0480200,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Tan, Katherine Calilan",J0441571,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,,,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
+,,"Villados, Charmaine Faraon",J0480204,,,,,,,,,,,,,active,,,,2021-07-12,Migration,PH
