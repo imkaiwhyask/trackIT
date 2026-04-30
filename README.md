@@ -1,29 +1,30 @@
 # TrackIT - Asset Management & Inventory System
 
-TrackIT is a web-based asset management system used to manage IT assets such as laptops, desktops, and accessories. It allows assigning assets to employees and generating return and separation forms.
+TrackIT is a web-based asset management and inventory system for managing IT assets such as laptops, desktops, and accessories. It supports asset assignment, return tracking, and basic form generation.
 
 ---
 
 ## 🚀 Features
 
-* Asset Inventory Management (Laptop/Desktop)
+* Asset inventory management for laptops, desktops, and accessories
 * Assign assets to employees
-* Asset assignment and return form generation
-* PDF form generation (Assignment & Return)
-* Accessories tracking (Keyboard, Mouse, Charger, etc.)
+* Track asset returns and separation records
+* Generate assignment and return forms
+* Accessories tracking such as keyboard, mouse, charger, and others
 * Basic dashboard view of assets
-* Asset loan form (record only)
-* Basic role setup (IT = Admin)
+* Asset loan record management
+* Basic user role setup
 
 ---
 
 ## 🛠 Tech Stack
 
-* PHP (Native)
+* PHP
 * MySQL
 * Bootstrap
 * jQuery
 * Docker
+* phpMyAdmin
 
 ---
 
@@ -32,74 +33,161 @@ TrackIT is a web-based asset management system used to manage IT assets such as 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/imkaiwhyask/trackit.git
-cd trackit
+git clone https://github.com/imkaiwhyask/trackIT.git
+cd trackIT
 ```
 
 ### 2. Run using Docker
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
-Open in browser:
+Open the application in your browser:
+
+```txt
 http://localhost:8080/it
+```
+
+Open phpMyAdmin:
+
+```txt
+http://localhost:8081
+```
 
 ---
 
-### 3. Setup Database
+## 🗄 Database Setup
+
+This repository only includes a safe database schema:
+
+```txt
+database/schema.sql
+```
+
+It contains the table structure only and does not include real company data, employee records, asset records, uploaded files, or production database dumps.
+
+### Option 1: Import using phpMyAdmin
 
 1. Open phpMyAdmin:
-   http://localhost:8081
 
-2. Create a database named:
-   `trackit`
+```txt
+http://localhost:8081
+```
 
-3. Import the SQL file:
-   `database/trackit.sql`
+2. Select or create the database used by the project.
+
+3. Import:
+
+```txt
+database/schema.sql
+```
+
+### Option 2: Import using terminal
+
+```bash
+docker exec -i trackit-db-1 mysql -u root tisamidb < database/schema.sql
+```
 
 ---
 
-### 4. Configure Database Connection
+## 🔧 Database Configuration
 
-Open:
-`src/config/config.php`
+Check your database configuration in:
 
-Make sure this matches your database:
+```txt
+src/config/config.php
+```
+
+Make sure the credentials match your Docker/MySQL setup.
+
+Example:
 
 ```php
-$con = mysqli_connect("localhost","root","","trackit");
+$con = mysqli_connect("db", "root", "", "tisamidb");
+```
+
+For Docker, the database host is usually:
+
+```txt
+db
+```
+
+not:
+
+```txt
+localhost
 ```
 
 ---
 
 ## 📂 Project Structure
 
-```
-trackit/
+```txt
+trackIT/
 │
-├── src/                # Main application files
-├── database/           # SQL file (required to run project)
+├── database/
+│   └── schema.sql          # Safe database structure only
+│
+├── src/                    # Main application files
+│
 ├── Dockerfile
 ├── docker-compose.yml
-└── README.md
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🔒 Security Notes
+
+This repository does not include:
+
+* Production database dumps
+* Real employee or asset records
+* Uploaded CSV, Excel, or PDF files
+* Internal company emails or SMTP details
+* Private audit files
+
+Do not commit real company data, exported reports, generated forms, database dumps, or uploaded files.
+
+Recommended ignored files include:
+
+```txt
+mysql/
+*.sql
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*-audit.txt
+```
+
+Only the safe database schema should be committed:
+
+```txt
+database/schema.sql
 ```
 
 ---
 
 ## ⚠️ Notes
 
-Make sure the `pdf` folder has write permission:
+If the app generates PDF files locally, make sure the output folder has write permission.
+
+Example:
 
 ```bash
 chmod -R 775 src/pdf
 ```
 
-If it doesn’t work:
+If needed for local development only:
 
 ```bash
 chmod -R 777 src/pdf
 ```
+
+Do not commit generated PDF files.
 
 ---
 
@@ -107,38 +195,17 @@ chmod -R 777 src/pdf
 
 * Role-based access control
 * Loan approval workflow
-* UI/UX improvements
+* Better user authentication and password hashing
+* Improved UI/UX
 * Reporting and analytics
+* Safer mail configuration using environment variables
+* Cleaner dependency management using Composer/NPM
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-```
-MIT License
-
-Copyright (c) 2026 Kai Angelo
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ---
 
