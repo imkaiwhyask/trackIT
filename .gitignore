@@ -1,0 +1,29 @@
+# Ignore database dumps
+database/*.sql
+*.sql
+
+# Allow safe schema only
+!database/schema.sql
+
+mysql/
+src/uploads/
+src/pdf/
+src/csv/
+*.csv
+*.xlsx
+*.xls
+*.pdf
+.env
+.env.*
+*.log
+*.xlsx
+*.xls
+*.csv
+src/it/*.xlsx
+src/it/*.xls
+# Local audit files
+*-audit.txt
+*risky*.txt
+*private*.txt
+all-history-files.txt
+history-audit.txt
