@@ -1,28 +1,43 @@
 services:
   web:
     build: .
+    container_name: trackit-web
     ports:
       - "8080:80"
     volumes:
       - ./src:/var/www/html
     depends_on:
       - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: ${MYSQL_DATABASE}
+      DB_USER: ${MYSQL_USER}
+      DB_PASS: ${MYSQL_PASSWORD}
 
   db:
     image: mysql:5.7
+    container_name: trackit-db
+    ports:
+      - "3307:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: ""
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: tisamidb
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     command: --lower-case-table-names=1 --sql-mode="NO_ENGINE_SUBSTITUTION"
     volumes:
       - ./mysql:/var/lib/mysql
 
   phpmyadmin:
-    image: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    container_name: trackit-phpmyadmin
     ports:
       - "8081:80"
+    depends_on:
+      - db
     environment:
       PMA_HOST: db
+      PMA_PORT: 3306
       PMA_USER: root
-      PMA_PASSWORD: ""
+      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}

@@ -1,27 +1,38 @@
-# Ignore database dumps
-database/*.sql
-*.sql
+# Environment / secrets
+.env
+.env.*
 
-# Allow safe schema only
-!database/schema.sql
-
+# Local MySQL data folders
 mysql/
+mysql_backup/
+
+# Uploaded/generated files
 src/uploads/
 src/pdf/
 src/csv/
+src/it/*.xlsx
+src/it/*.xls
+
+# Generated reports / documents
 *.csv
 *.xlsx
 *.xls
 *.pdf
-.env
-.env.*
 *.log
-*.xlsx
-*.xls
-*.csv
-src/it/*.xlsx
-src/it/*.xls
-# Local audit files
+
+# Ignore unsafe/private SQL dumps
+*.sql
+database/*.sql
+
+# Allow safe project SQL files
+!database/
+!database/schema.sql
+!database/migrations/
+!database/migrations/*.sql
+!database/seeds/
+!database/seeds/*.sql
+
+# Local audit/private files
 *-audit.txt
 *risky*.txt
 *private*.txt

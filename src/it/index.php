@@ -7,13 +7,19 @@
   }
 
   include('../config/config.php');
-  $query=mysqli_query($con,"SELECT * FROM tbl_user where id='".$_SESSION['uidrps']."'");
-    $row=mysqli_fetch_assoc($query);
-    $byUser=$row['name'];
-    $uid=$row['id'];
-    $igg=$row['login'];
-    $flag=$row['icon'];
-    $country=$row['country'];
+$query=mysqli_query($con,"SELECT * FROM tbl_user where id='".$_SESSION['uidrps']."'");
+$row=mysqli_fetch_assoc($query);
+
+if (!$row || !isset($row['role']) || $row['role'] !== 'IT') {
+    header('Location:../index.php?unauthorized');
+    exit;
+}
+
+$byUser=$row['name'];
+$uid=$row['id'];
+$igg=$row['login'];
+$flag=$row['icon'];
+$country=$row['country'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
