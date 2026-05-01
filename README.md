@@ -1,214 +1,278 @@
-# TrackIT - Asset Management & Inventory System
+# TrackIT
 
-TrackIT is a web-based asset management and inventory system for managing IT assets such as laptops, desktops, and accessories. It supports asset assignment, return tracking, and basic form generation.
+TrackIT is a simple IT asset tracking system for managing company devices, asset inventory, assignments, and records.
 
----
-
-## 🚀 Features
-
-* Asset inventory management for laptops, desktops, and accessories
-* Assign assets to employees
-* Track asset returns and separation records
-* Generate assignment and return forms
-* Accessories tracking such as keyboard, mouse, charger, and others
-* Basic dashboard view of assets
-* Asset loan record management
-* Basic user role setup
+This repository is intended for development/testing only and does not include production employee data, company asset records, uploaded files, or private database dumps.
 
 ---
 
-## 🛠 Tech Stack
+## Features
 
-* PHP
-* MySQL
-* Bootstrap
-* jQuery
-* Docker
-* phpMyAdmin
+- IT asset inventory management
+- Asset assignment to employees
+- Asset status tracking
+- PDF/file upload support
+- User login system
+- MySQL database using Docker
+- phpMyAdmin for local database management
+- Safe default dropdown seed data
 
 ---
 
-## ⚙️ Installation Guide
+## Tech Stack
+
+- PHP
+- MySQL 5.7
+- Apache
+- Docker
+- Docker Compose
+- phpMyAdmin
+
+---
+
+## Local Setup
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/imkaiwhyask/trackIT.git
-cd trackIT
+cd trackit
 ```
 
-### 2. Run using Docker
+---
+
+### 2. Create `.env`
+
+Create a `.env` file in the project root:
 
 ```bash
-docker compose up -d
+nano .env
 ```
 
-Open the application in your browser:
+Paste this:
 
-```txt
-http://localhost:8080/it
+```env
+MYSQL_ROOT_PASSWORD=TrackITRoot_2026!Secure
+MYSQL_DATABASE=trackit_db
+MYSQL_USER=trackit_user
+MYSQL_PASSWORD=TrackITApp_2026!Secure
 ```
 
-Open phpMyAdmin:
+Save:
 
-```txt
-http://localhost:8081
+```text
+CTRL + O
+Enter
+CTRL + X
 ```
+
+Important: `.env` is ignored by Git and should not be committed.
 
 ---
 
-## 🗄 Database Setup
-
-This repository only includes a safe database schema:
-
-```txt
-database/schema.sql
-```
-
-It contains the table structure only and does not include real company data, employee records, asset records, uploaded files, or production database dumps.
-
-### Option 1: Import using phpMyAdmin
-
-1. Open phpMyAdmin:
-
-```txt
-http://localhost:8081
-```
-
-2. Select or create the database used by the project.
-
-3. Import:
-
-```txt
-database/schema.sql
-```
-
-### Option 2: Import using terminal
+### 3. Start Docker
 
 ```bash
-docker exec -i trackit-db-1 mysql -u root tisamidb < database/schema.sql
+docker compose up -d --build
+```
+
+After running, open:
+
+```text
+App: http://localhost:8080
+phpMyAdmin: http://localhost:8081
+```
+
+phpMyAdmin login:
+
+```text
+Username: root
+Password: TrackITRoot_2026!Secure
 ```
 
 ---
 
-## 🔧 Database Configuration
+## Database Setup
 
-Check your database configuration in:
+This repository includes a safe schema and safe default dropdown data.
 
-```txt
-src/config/config.php
+It does not include real employee records, production asset records, uploaded PDFs, reports, or private company data.
+
+### 1. Import schema
+
+Run this from the project root:
+
+```bash
+docker exec -i trackit-db mysql -uroot -pTrackITRoot_2026!Secure trackit_db < database/schema.sql
 ```
 
-Make sure the credentials match your Docker/MySQL setup.
+### 2. Import default dropdown/master data
 
-Example:
-
-```php
-$con = mysqli_connect("db", "root", "", "tisamidb");
+```bash
+docker exec -i trackit-db mysql -uroot -pTrackITRoot_2026!Secure trackit_db < database/seeds/001_default_dropdowns.sql
 ```
 
-For Docker, the database host is usually:
+The seed file contains only generic values such as:
 
-```txt
-db
-```
+- Asset types
+- Operating systems
+- Asset statuses
+- Conditions
+- Roles
+- Accessories
+- Default dropdown values
 
-not:
-
-```txt
-localhost
-```
+It does not contain confidential or production data.
 
 ---
 
-## 📂 Project Structure
+## Test Login
 
-```txt
-trackIT/
-│
-├── database/
-│   └── schema.sql          # Safe database structure only
-│
-├── src/                    # Main application files
-│
-├── Dockerfile
-├── docker-compose.yml
-├── README.md
-└── LICENSE
+After importing the schema, you may create a local test user in phpMyAdmin.
+
+Go to:
+
+```text
+phpMyAdmin → trackit_db → SQL
 ```
+
+Run:
+
+```sql
+INSERT INTO tbl_user
+(login, password, role, name, byUser, email, country, icon, status, remarks)
+VALUES
+('admin', SHA1('admin123'), 'IT', 'Test IT User', 'System', 'admin@test.local', 'Philippines', '', 'Active', '');
+```
+
+Then login to the app using:
+
+```text
+Username: admin
+Password: admin123
+```
+
+On first successful login, the system may upgrade the old SHA1 password to a stronger password hash.
 
 ---
 
-## 🔒 Security Notes
+## Reset Local Database
 
-This repository does not include:
+If you need to reset your local database completely:
 
-* Production database dumps
-* Real employee or asset records
-* Uploaded CSV, Excel, or PDF files
-* Internal company emails or SMTP details
-* Private audit files
+```bash
+docker compose down
+sudo rm -rf mysql
+docker compose up -d --build
+```
 
-Do not commit real company data, exported reports, generated forms, database dumps, or uploaded files.
+Then import the schema and seed files again.
 
-Recommended ignored files include:
+---
 
-```txt
+## Security Notes
+
+This project has been updated to avoid common security issues:
+
+- Database credentials are loaded from environment variables.
+- `.env` is ignored and should never be committed.
+- MySQL root password is no longer blank.
+- Login uses prepared statements.
+- Passwords should use secure hashing.
+- File uploads are renamed safely.
+- SQL seed files contain only safe generic dropdown data.
+- Local MySQL data folders are ignored by Git.
+
+---
+
+## Files/Folders Not Included in Git
+
+The following should not be committed:
+
+```text
+.env
 mysql/
-*.sql
+mysql_backup/
+src/uploads/
+src/pdf/
+src/csv/
 *.csv
 *.xlsx
 *.xls
 *.pdf
-*-audit.txt
-```
-
-Only the safe database schema should be committed:
-
-```txt
-database/schema.sql
+*.log
+private database dumps
+production SQL backups
+employee records
+company asset records
 ```
 
 ---
 
-## ⚠️ Notes
+## Useful Docker Commands
 
-If the app generates PDF files locally, make sure the output folder has write permission.
-
-Example:
+Start containers:
 
 ```bash
-chmod -R 775 src/pdf
+docker compose up -d --build
 ```
 
-If needed for local development only:
+Stop containers:
 
 ```bash
-chmod -R 777 src/pdf
+docker compose down
 ```
 
-Do not commit generated PDF files.
+View running containers:
+
+```bash
+docker ps
+```
+
+View logs:
+
+```bash
+docker logs trackit-web
+docker logs trackit-db
+docker logs trackit-phpmyadmin
+```
+
+Open MySQL terminal:
+
+```bash
+docker exec -it trackit-db mysql -uroot -p
+```
 
 ---
 
-## 📌 Future Improvements
+## Git Reminder
 
-* Role-based access control
-* Loan approval workflow
-* Better user authentication and password hashing
-* Improved UI/UX
-* Reporting and analytics
-* Safer mail configuration using environment variables
-* Cleaner dependency management using Composer/NPM
+Before committing, always check:
+
+```bash
+git status
+```
+
+Make sure these are not included:
+
+```text
+.env
+mysql/
+mysql_backup/
+uploaded files
+private SQL dumps
+```
+
+Commit safe changes only:
+
+```bash
+git add .
+git commit -m "Apply security fixes and database seed"
+git push origin master
+```
 
 ---
 
-## 📄 License
+## Disclaimer
 
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-Kai Angelo
+This repository is for development and local testing. Before using in production, review the code, database access, authentication, permissions, file uploads, and server configuration carefully.
